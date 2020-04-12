@@ -1,0 +1,73 @@
+<link href="/content/mould/book/css/index.css" rel="stylesheet"/>
+
+<div class="bm-box " style="margin-top:20px; padding-bottom:3px;">
+    <div class="search-bar" style="border:#C4790B 0px solid; width:100%">
+        <div class="inner">
+            <div class="field">
+                <div class="icon">
+                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path d="M31.21 27.4l-5.15-5.15a13.06 13.06 0 1 0-2.52 3.13l4.84 4.84zM3.8 15.78a11 11 0 1 1 11 11 11 11 0 0 1-11-11z"
+                              fill="#999"></path>
+                    </svg>
+                </div>
+                <input type="text" placeholder="输入书名" id="search_keyword" maxlength="18">
+            </div>
+            <button onclick="search();" id="show_sear_btn">搜索</button>
+        </div>
+    </div>
+</div>
+
+<div class="bm-box mt-10">
+    <div class="head">
+        <div class="title dot"><b>图书馆-{{.Server}}</b></div>
+        <div class="pull-right">
+            <a href="">
+                查看更多
+                <svg width="7" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 24">
+                    <title>right-arrow</title>
+                    <path d="M1.91 1.93L12.06 12 1.91 22" fill="none" stroke="#ff5420" stroke-linecap="round"
+                          stroke-linejoin="round" stroke-width="2"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="books-row" id="book_div">
+        {{range $i, $item := .List}}
+            <div class="item">
+                <a href="javascript:;">
+                    <img class="lazy" src="{{$item.Bookimage}}">
+                    <div class="title">{{$item.Bookname}}</div>
+                    <div class="text">{{$item.Author}}</div>
+                </a>
+            </div>
+        {{end}}
+    </div>
+</div>
+<div style="clear:both;height:2rem;"></div>
+<script type="text/javascript">
+    function search() {
+        var key = $("#search_keyword").val();
+        console.log(key)
+        if (key == "") return;
+
+        $.ajax({
+            url: "/book/ajaxbooks",
+            type: "Get",
+            data: {key: key},
+            dataType: "json",
+            success: function (result) {
+                var html = "";
+                $.each(result, function (i, e) {
+                    html += "<div class='item'>"
+                    html += "  <a href='javascript:;'>"
+                    html += "<img class='lazy'\"' src='" + e.Bookimage + "'>"
+                    html += "<div class='title'>" + e.Bookname + "</div>"
+                    html += "<div class='text'>" + e.Author + "</div>"
+                    html += "</a>"
+                    html += "</div>"
+                })
+                $("#book_div").html(html)
+            }
+        });
+    }
+</script>

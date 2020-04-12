@@ -1,0 +1,1560 @@
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/04 18:07 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:07 Dependencies:
+
+[DBUG] 2020/04/04 18:07 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:07 Dependencies:
+
+[DBUG] 2020/04/04 18:07 [./main.go:35] GET: /content/{file:path} -> HandleDir(directory: "./web/content")
+[DBUG] 2020/04/04 18:07 [./main.go:35] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content")
+[DBUG] 2020/04/04 18:07 [./main.go:39] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks()
+[DBUG] 2020/04/04 18:07 [./main.go:40] GET: /demo/orm -> controllers.DemoController.GetOrm()
+[DBUG] 2020/04/04 18:07 [./main.go:40] GET: /demo/record1 -> controllers.DemoController.GetRecord1()
+[DBUG] 2020/04/04 18:07 [./main.go:40] GET: /demo/xml -> controllers.DemoController.GetXml()
+[DBUG] 2020/04/04 18:07 [./main.go:39] GET: /book -> controllers.BookController.Get()
+[DBUG] 2020/04/04 18:07 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 18:07 Application: running using 1 host(s)
+[DBUG] 2020/04/04 18:07 Host: addr is localhost:8082
+[DBUG] 2020/04/04 18:07 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 18:07 Host: register startup notifier
+[DBUG] 2020/04/04 18:07 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 18:07 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/04 18:09 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:09 Dependencies:
+
+[DBUG] 2020/04/04 18:09 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:09 Dependencies:
+
+[DBUG] 2020/04/04 18:09 [./main.go:54] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:54] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:58] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:59] GET: /demo/orm -> controllers.DemoController.GetOrm() and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:59] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:59] GET: /demo/xml -> controllers.DemoController.GetXml() and 1 more
+[DBUG] 2020/04/04 18:09 [./main.go:58] GET: /book -> controllers.BookController.Get() and 1 more
+[DBUG] 2020/04/04 18:09 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 18:09 Application: running using 1 host(s)
+[DBUG] 2020/04/04 18:09 Host: addr is localhost:8082
+[DBUG] 2020/04/04 18:09 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 18:09 Host: register startup notifier
+[DBUG] 2020/04/04 18:09 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 18:09 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/04 18:09 200 3.9886ms 127.0.0.1 GET /demo/xml Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 18:09 200   0s 127.0.0.1 GET /demo/xml Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[DBUG] 2020/04/04 18:10 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:10 Dependencies:
+
+[DBUG] 2020/04/04 18:10 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 18:10 Dependencies:
+
+[DBUG] 2020/04/04 18:10 [./main.go:55] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:55] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:59] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:60] GET: /demo/orm -> controllers.DemoController.GetOrm() and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:60] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:60] GET: /demo/xml -> controllers.DemoController.GetXml() and 1 more
+[DBUG] 2020/04/04 18:10 [./main.go:59] GET: /book -> controllers.BookController.Get() and 1 more
+[DBUG] 2020/04/04 18:10 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 18:10 Application: running using 1 host(s)
+[DBUG] 2020/04/04 18:10 Host: addr is localhost:8082
+[DBUG] 2020/04/04 18:10 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 18:10 Host: register startup notifier
+[DBUG] 2020/04/04 18:10 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 18:10 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/04 20:12 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:12 Dependencies:
+
+[DBUG] 2020/04/04 20:12 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:12 Dependencies:
+
+[DBUG] 2020/04/04 20:12 [./main.go:90] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:90] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:94] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:95] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:95] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:95] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:95] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 20:12 [./main.go:94] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 20:12 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 20:12 Application: running using 1 host(s)
+[DBUG] 2020/04/04 20:12 Host: addr is localhost:8082
+[DBUG] 2020/04/04 20:12 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 20:12 Host: register startup notifier
+[DBUG] 2020/04/04 20:12 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 20:12 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/04 20:13 200 70.8082ms 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[DBUG] 2020/04/04 20:14 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:14 Dependencies:
+
+[DBUG] 2020/04/04 20:14 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:14 Dependencies:
+
+[DBUG] 2020/04/04 20:14 [./main.go:90] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:90] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:94] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:95] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:95] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:95] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:95] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 20:14 [./main.go:94] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 20:14 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 20:14 Application: running using 1 host(s)
+[DBUG] 2020/04/04 20:14 Host: addr is localhost:8082
+[DBUG] 2020/04/04 20:14 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 20:14 Host: register startup notifier
+[DBUG] 2020/04/04 20:14 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 20:14 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/04 20:14 200 4.9863ms 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[DBUG] 2020/04/04 20:18 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:18 Dependencies:
+
+[DBUG] 2020/04/04 20:18 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:18 Dependencies:
+
+[DBUG] 2020/04/04 20:18 [./main.go:90] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:90] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:94] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:95] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:95] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:95] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:95] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 20:18 [./main.go:94] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 20:18 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 20:18 Application: running using 1 host(s)
+[DBUG] 2020/04/04 20:18 Host: addr is localhost:8082
+[DBUG] 2020/04/04 20:18 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 20:18 Host: register startup notifier
+[DBUG] 2020/04/04 20:18 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 20:18 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[WARN] 2020/04/04 20:18 从错误中回复：('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+错误信息: i'm a painc
+
+D:/Go/src/runtime/panic.go:679
+E:/GOPATH/src/demo.book.com/web/controllers/DemoController.go:58
+D:/Go/src/reflect/value.go:460
+D:/Go/src/reflect/value.go:321
+E:/GOPATH/src/github.com/kataras/iris/mvc/controller.go:507
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/demo.book.com/main.go:83
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/github.com/kataras/iris/middleware/logger/logger.go:50
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1025
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1212
+E:/GOPATH/src/github.com/kataras/iris/core/router/handler.go:250
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:135
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:227
+D:/Go/src/net/http/server.go:2802
+D:/Go/src/net/http/server.go:1890
+D:/Go/src/runtime/asm_amd64.s:1357
+
+[INFO] 2020/04/04 20:18 500   0s 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[WARN] 2020/04/04 20:18 从错误中回复：('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+错误信息: i'm a painc
+
+D:/Go/src/runtime/panic.go:679
+E:/GOPATH/src/demo.book.com/web/controllers/DemoController.go:58
+D:/Go/src/reflect/value.go:460
+D:/Go/src/reflect/value.go:321
+E:/GOPATH/src/github.com/kataras/iris/mvc/controller.go:507
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/demo.book.com/main.go:83
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/github.com/kataras/iris/middleware/logger/logger.go:50
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1025
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1212
+E:/GOPATH/src/github.com/kataras/iris/core/router/handler.go:250
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:135
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:227
+D:/Go/src/net/http/server.go:2802
+D:/Go/src/net/http/server.go:1890
+D:/Go/src/runtime/asm_amd64.s:1357
+
+[INFO] 2020/04/04 20:18 500   0s 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[WARN] 2020/04/04 20:18 从错误中回复：('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+错误信息: i'm a painc
+
+D:/Go/src/runtime/panic.go:679
+E:/GOPATH/src/demo.book.com/web/controllers/DemoController.go:58
+D:/Go/src/reflect/value.go:460
+D:/Go/src/reflect/value.go:321
+E:/GOPATH/src/github.com/kataras/iris/mvc/controller.go:507
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/demo.book.com/main.go:83
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/github.com/kataras/iris/middleware/logger/logger.go:50
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1025
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1212
+E:/GOPATH/src/github.com/kataras/iris/core/router/handler.go:250
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:135
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:227
+D:/Go/src/net/http/server.go:2802
+D:/Go/src/net/http/server.go:1890
+D:/Go/src/runtime/asm_amd64.s:1357
+
+[INFO] 2020/04/04 20:18 500   0s 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[WARN] 2020/04/04 20:18 从错误中回复：('github.com/kataras/iris/mvc.(*ControllerActivator).handlerOf.func2')
+错误信息: i'm a painc
+
+D:/Go/src/runtime/panic.go:679
+E:/GOPATH/src/demo.book.com/web/controllers/DemoController.go:58
+D:/Go/src/reflect/value.go:460
+D:/Go/src/reflect/value.go:321
+E:/GOPATH/src/github.com/kataras/iris/mvc/controller.go:507
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/demo.book.com/main.go:83
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1338
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1347
+E:/GOPATH/src/github.com/kataras/iris/middleware/logger/logger.go:50
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1025
+E:/GOPATH/src/github.com/kataras/iris/context/context.go:1212
+E:/GOPATH/src/github.com/kataras/iris/core/router/handler.go:250
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:135
+E:/GOPATH/src/github.com/kataras/iris/core/router/router.go:227
+D:/Go/src/net/http/server.go:2802
+D:/Go/src/net/http/server.go:1890
+D:/Go/src/runtime/asm_amd64.s:1357
+
+[INFO] 2020/04/04 20:18 500   0s 127.0.0.1 GET /demo/err Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[DBUG] 2020/04/04 20:53 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:53 Dependencies:
+
+[DBUG] 2020/04/04 20:53 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 20:53 Dependencies:
+
+[DBUG] 2020/04/04 20:53 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 20:53 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 20:53 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 20:53 Application: running using 1 host(s)
+[DBUG] 2020/04/04 20:53 Host: addr is localhost:8082
+[DBUG] 2020/04/04 20:53 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 20:53 Host: register startup notifier
+[DBUG] 2020/04/04 20:53 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 20:53 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/04 20:53 200 113.7158ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 20:54 200 998.1µs 127.0.0.1 GET /book Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+[DBUG] 2020/04/04 21:26 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:26 Dependencies:
+
+[DBUG] 2020/04/04 21:26 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:26 Dependencies:
+
+[DBUG] 2020/04/04 21:26 [./main.go:96] GET: /demo/q/p/s -> controllers.DemoController.GetQPS() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 21:26 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 21:26 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 21:26 Application: running using 1 host(s)
+[DBUG] 2020/04/04 21:26 Host: addr is localhost:8082
+[DBUG] 2020/04/04 21:26 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 21:26 Host: register startup notifier
+[DBUG] 2020/04/04 21:26 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 21:26 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/04 21:27 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:27 Dependencies:
+
+[DBUG] 2020/04/04 21:27 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:27 Dependencies:
+
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/q/p/s -> controllers.DemoController.GetQPS() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 21:27 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 21:27 Application: running using 1 host(s)
+[DBUG] 2020/04/04 21:27 Host: addr is localhost:8082
+[DBUG] 2020/04/04 21:27 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 21:27 Host: register startup notifier
+[DBUG] 2020/04/04 21:27 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 21:27 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/04 21:27 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:27 Dependencies:
+
+[DBUG] 2020/04/04 21:27 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/04 21:27 Dependencies:
+
+[DBUG] 2020/04/04 21:27 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/04 21:27 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/04 21:27 Application: 1 registered view engine(s)
+[DBUG] 2020/04/04 21:27 Application: running using 1 host(s)
+[DBUG] 2020/04/04 21:27 Host: addr is localhost:8082
+[DBUG] 2020/04/04 21:27 Host: virtual host is localhost:8082
+[DBUG] 2020/04/04 21:27 Host: register startup notifier
+[DBUG] 2020/04/04 21:27 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/04 21:27 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200 966.6µs 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:27 200   0s 127.0.0.1 GET /demo/qps Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.5µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 3.9808ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 994.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 999.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 994µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 999.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.8µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.1µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0019ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.8µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.5µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.8µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.9935ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.4µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.4µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.7µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0139ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0236ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 992.1µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 994.5µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.9951ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 999.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.8µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0028ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 991.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0002ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 999.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.2µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 996.3µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.5µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998.5µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 997.9µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 995.5µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 998.1µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 1.0313ms 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 990.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 972.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200 992.6µs 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:29 200   0s 127.0.0.1 GET /book Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200 997.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:33 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.7µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 963.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 963.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 963.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 963.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.5µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.6µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.7µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.6µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.6µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 994.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.7µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.2µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 998.2µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 998.2µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 998.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 998.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 1.0025ms 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 995.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 995.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.6µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.9µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.3µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.7µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.5µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 998.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.8µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 996.4µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.1µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200 997.5µs 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1
+[INFO] 2020/04/04 21:36 200   0s 127.0.0.1 GET /demo/qps Go-http-client/1.1

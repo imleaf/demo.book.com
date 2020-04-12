@@ -1,0 +1,850 @@
+[DBUG] 2020/04/12 11:04 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:04 Dependencies:
+
+[DBUG] 2020/04/12 11:04 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:04 Dependencies:
+
+[DBUG] 2020/04/12 11:04 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:04 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:04 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:04 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:04 Host: addr is localhost:8082
+[DBUG] 2020/04/12 11:04 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 11:04 Host: register startup notifier
+[DBUG] 2020/04/12 11:04 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:04 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:04 200 155.5837ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 304   0s 127.0.0.1 GET /mould/book/css/style.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 304   0s 127.0.0.1 GET /mould/book/css/index.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 304   0s 127.0.0.1 GET /mould/book/mhimages/svg/tabbar_home_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 304 997.6µs 127.0.0.1 GET /mould/book/mhimages/svg/tabbar_book_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 304   0s 127.0.0.1 GET /mould/book/mhimages/svg/tabbar_me_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:04 200 996.6µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:06 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:06 Dependencies:
+
+[DBUG] 2020/04/12 11:06 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:06 Dependencies:
+
+[DBUG] 2020/04/12 11:06 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:06 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:06 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:06 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:06 Host: addr is localhost:8082
+[DBUG] 2020/04/12 11:06 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 11:06 Host: register startup notifier
+[DBUG] 2020/04/12 11:06 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:06 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:06 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:06 200 1.0003ms 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:07 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:07 Dependencies:
+
+[DBUG] 2020/04/12 11:07 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:07 Dependencies:
+
+[DBUG] 2020/04/12 11:07 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:07 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:07 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:07 Host: addr is localhost:8082
+[DBUG] 2020/04/12 11:07 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 11:07 Host: register startup notifier
+[DBUG] 2020/04/12 11:07 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:07 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/12 11:07 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:07 Dependencies:
+
+[DBUG] 2020/04/12 11:07 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:07 Dependencies:
+
+[DBUG] 2020/04/12 11:07 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:07 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:07 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:07 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:07 Host: addr is localhost:8082
+[DBUG] 2020/04/12 11:07 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 11:07 Host: register startup notifier
+[DBUG] 2020/04/12 11:07 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:07 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:07 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:07 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:09 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:09 Dependencies:
+
+[DBUG] 2020/04/12 11:09 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:09 Dependencies:
+
+[DBUG] 2020/04/12 11:09 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:09 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:09 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:09 Host: addr is 127.0.0.1:80828082
+[DBUG] 2020/04/12 11:09 Host: virtual host is 127.0.0.1:80828082
+[DBUG] 2020/04/12 11:09 Host: register startup notifier
+[DBUG] 2020/04/12 11:09 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:09 Host: server will ignore the following errors: [http: Server closed]
+[ERRO] 2020/04/12 11:09 listen tcp: address 80828082: invalid port
+[DBUG] 2020/04/12 11:09 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:09 Dependencies:
+
+[DBUG] 2020/04/12 11:09 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:09 Dependencies:
+
+[DBUG] 2020/04/12 11:09 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:09 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:09 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:09 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:09 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:09 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:09 Host: register startup notifier
+[DBUG] 2020/04/12 11:09 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:09 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:09 200 999.1µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:09 200 998.3µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:09 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:09 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:11 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:11 Dependencies:
+
+[DBUG] 2020/04/12 11:11 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:11 Dependencies:
+
+[DBUG] 2020/04/12 11:11 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:11 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:11 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:11 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:11 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:11 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:11 Host: register startup notifier
+[DBUG] 2020/04/12 11:11 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:11 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:11 200 995.7µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:12 200 992µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:14 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:14 Dependencies:
+
+[DBUG] 2020/04/12 11:14 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:14 Dependencies:
+
+[DBUG] 2020/04/12 11:14 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:14 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:14 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:14 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:14 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:14 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:14 Host: register startup notifier
+[DBUG] 2020/04/12 11:14 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:14 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:14 200 998.6µs 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200   0s 127.0.0.1 GET /demo/conf?reload Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200   0s 127.0.0.1 GET /demo/conf?reload= Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200 1.0049ms 127.0.0.1 GET /demo/conf?reload=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200 1.0001ms 127.0.0.1 GET /demo/conf?reload=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200 993.5µs 127.0.0.1 GET /demo/conf?reload=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:14 200 1.0119ms 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:24 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:24 Dependencies:
+
+[DBUG] 2020/04/12 11:24 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:24 Dependencies:
+
+[DBUG] 2020/04/12 11:24 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:24 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:24 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:24 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:24 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:24 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:24 Host: register startup notifier
+[DBUG] 2020/04/12 11:24 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:24 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:24 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:24 200 5.9826ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:55 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:55 Dependencies:
+
+[DBUG] 2020/04/12 11:55 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:55 Dependencies:
+
+[DBUG] 2020/04/12 11:55 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:55 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:55 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:55 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:55 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:55 Host: register startup notifier
+[DBUG] 2020/04/12 11:55 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:55 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:55 200 153.5913ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:55 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:55 Dependencies:
+
+[DBUG] 2020/04/12 11:55 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:55 Dependencies:
+
+[DBUG] 2020/04/12 11:55 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:55 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:55 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:55 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:55 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:55 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:55 Host: register startup notifier
+[DBUG] 2020/04/12 11:55 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:55 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:55 200 1.9972ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:56 200 997.1µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 11:56 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:56 Dependencies:
+
+[DBUG] 2020/04/12 11:56 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 11:56 Dependencies:
+
+[DBUG] 2020/04/12 11:56 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 11:56 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 11:56 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 11:56 Application: running using 1 host(s)
+[DBUG] 2020/04/12 11:56 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:56 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 11:56 Host: register startup notifier
+[DBUG] 2020/04/12 11:56 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 11:56 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 11:56 200 4.9865ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:56 200 1.006ms 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 2.0415ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 997.7µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 996.9µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 2.028ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 971.2µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 1.0004ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 1.0089ms 127.0.0.1 GET /demo/conf?reload=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 2.0058ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 1.0004ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 996.9µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 996.4µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200   0s 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 11:59 200 1.992ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 12:00 200   0s 127.0.0.1 GET /demo/conf?reload=1 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 12:02 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:02 Dependencies:
+
+[DBUG] 2020/04/12 12:02 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:02 Dependencies:
+
+[DBUG] 2020/04/12 12:02 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 12:02 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 12:02 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 12:02 Application: running using 1 host(s)
+[DBUG] 2020/04/12 12:02 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:02 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:02 Host: register startup notifier
+[DBUG] 2020/04/12 12:02 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 12:02 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 12:02 200 4.9772ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 12:02 200 1.9845ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 12:02 200 998.6µs 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 12:03 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:03 Dependencies:
+
+[DBUG] 2020/04/12 12:03 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:03 Dependencies:
+
+[DBUG] 2020/04/12 12:03 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 12:03 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 12:03 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 12:03 Application: running using 1 host(s)
+[DBUG] 2020/04/12 12:03 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:03 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:03 Host: register startup notifier
+[DBUG] 2020/04/12 12:03 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 12:03 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/12 12:17 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:17 Dependencies:
+
+[DBUG] 2020/04/12 12:17 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:17 Dependencies:
+
+[DBUG] 2020/04/12 12:17 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 12:17 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 12:17 Application: running using 1 host(s)
+[DBUG] 2020/04/12 12:17 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:17 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:17 Host: register startup notifier
+[DBUG] 2020/04/12 12:17 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 12:17 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/12 12:17 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:17 Dependencies:
+
+[DBUG] 2020/04/12 12:17 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 12:17 Dependencies:
+
+[DBUG] 2020/04/12 12:17 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 12:17 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 12:17 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 12:17 Application: running using 1 host(s)
+[DBUG] 2020/04/12 12:17 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:17 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 12:17 Host: register startup notifier
+[DBUG] 2020/04/12 12:17 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 12:17 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 12:17 200 5.9851ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:15 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:15 Dependencies:
+
+[DBUG] 2020/04/12 13:15 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:15 Dependencies:
+
+[DBUG] 2020/04/12 13:15 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:15 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:15 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:15 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:15 Host: addr is 127.0.0.1:8082
+[DBUG] 2020/04/12 13:15 Host: virtual host is 127.0.0.1:8082
+[DBUG] 2020/04/12 13:15 Host: register startup notifier
+[DBUG] 2020/04/12 13:15 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:15 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://127.0.0.1:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:15 200 100.9181ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:15 200 15.9584ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:15 200 17.9524ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:15 200 16.9529ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:31 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:31 Dependencies:
+
+[DBUG] 2020/04/12 13:31 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:31 Dependencies:
+
+[DBUG] 2020/04/12 13:31 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:31 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:31 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:31 Host: addr is :8082
+[DBUG] 2020/04/12 13:31 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:31 Host: register startup notifier
+[DBUG] 2020/04/12 13:31 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:31 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:31 200 220.9004ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:31 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:31 Dependencies:
+
+[DBUG] 2020/04/12 13:31 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:31 Dependencies:
+
+[DBUG] 2020/04/12 13:31 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:31 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:31 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:31 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:31 Host: addr is 8082
+[DBUG] 2020/04/12 13:31 Host: virtual host is 8082
+[DBUG] 2020/04/12 13:31 Host: register startup notifier
+[DBUG] 2020/04/12 13:31 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:31 Host: server will ignore the following errors: [http: Server closed]
+[ERRO] 2020/04/12 13:31 listen tcp: address 8082: missing port in address
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:33 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:33 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:33 Host: addr is :8082
+[DBUG] 2020/04/12 13:33 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:33 Host: register startup notifier
+[DBUG] 2020/04/12 13:33 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:33 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:33 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:33 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:33 Host: addr is 8082
+[DBUG] 2020/04/12 13:33 Host: virtual host is 8082
+[DBUG] 2020/04/12 13:33 Host: register startup notifier
+[DBUG] 2020/04/12 13:33 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:33 Host: server will ignore the following errors: [http: Server closed]
+[ERRO] 2020/04/12 13:33 listen tcp: address 8082: missing port in address
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:33 Dependencies:
+
+[DBUG] 2020/04/12 13:33 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:33 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:33 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:33 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:33 Host: addr is 192.168.31.1:8082
+[DBUG] 2020/04/12 13:33 Host: virtual host is 192.168.31.1:8082
+[DBUG] 2020/04/12 13:33 Host: register startup notifier
+[DBUG] 2020/04/12 13:33 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:33 Host: server will ignore the following errors: [http: Server closed]
+[ERRO] 2020/04/12 13:33 listen tcp 192.168.31.1:8082: bind: The requested address is not valid in its context.
+[DBUG] 2020/04/12 13:34 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:34 Dependencies:
+
+[DBUG] 2020/04/12 13:34 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:34 Dependencies:
+
+[DBUG] 2020/04/12 13:34 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:34 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:34 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:34 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:34 Host: addr is 192.168.31.104:8082
+[DBUG] 2020/04/12 13:34 Host: virtual host is 192.168.31.104:8082
+[DBUG] 2020/04/12 13:34 Host: register startup notifier
+[DBUG] 2020/04/12 13:34 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:34 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://192.168.31.104:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:34 200 117.0402ms 192.168.31.104 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:34 200 31.914ms 192.168.31.104 GET /mould/book/css/style.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:34 200 39.8983ms 192.168.31.104 GET /mould/book/css/index.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:34 200 6.98ms 192.168.31.104 GET /mould/book/mhimages/svg/tabbar_book_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:34 200 13.9634ms 192.168.31.104 GET /mould/book/mhimages/svg/tabbar_home_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:34 200 10.9698ms 192.168.31.104 GET /mould/book/mhimages/svg/tabbar_me_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:36 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:36 Dependencies:
+
+[DBUG] 2020/04/12 13:36 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:36 Dependencies:
+
+[DBUG] 2020/04/12 13:36 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:36 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:36 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:36 Host: addr is 47.98.142.92:8082
+[DBUG] 2020/04/12 13:36 Host: virtual host is 47.98.142.92:8082
+[DBUG] 2020/04/12 13:36 Host: register startup notifier
+[DBUG] 2020/04/12 13:36 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:36 Host: server will ignore the following errors: [http: Server closed]
+[ERRO] 2020/04/12 13:36 listen tcp 47.98.142.92:8082: bind: The requested address is not valid in its context.
+[DBUG] 2020/04/12 13:36 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:36 Dependencies:
+
+[DBUG] 2020/04/12 13:36 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:36 Dependencies:
+
+[DBUG] 2020/04/12 13:36 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:36 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:36 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:36 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:36 Host: addr is localhost:8082
+[DBUG] 2020/04/12 13:36 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:36 Host: register startup notifier
+[DBUG] 2020/04/12 13:36 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:36 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:36 200 208.4435ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:38 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:38 Dependencies:
+
+[DBUG] 2020/04/12 13:38 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:38 Dependencies:
+
+[DBUG] 2020/04/12 13:38 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:38 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:38 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:38 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:38 Host: addr is :8082
+[DBUG] 2020/04/12 13:38 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:38 Host: register startup notifier
+[DBUG] 2020/04/12 13:38 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:38 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:38 200 98.7343ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200 18.9471ms ::1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200 998.3µs ::1 GET /mould/book/css/style.min.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200 996.4µs ::1 GET /mould/book/css/index.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200   0s ::1 GET /mould/book/mhimages/svg/tabbar_home_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200   0s ::1 GET /mould/book/mhimages/svg/tabbar_book_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200   0s ::1 GET /mould/book/mhimages/svg/tabbar_me_n.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 13:38 200 19.9461ms 192.168.31.104 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:54 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:54 Dependencies:
+
+[DBUG] 2020/04/12 13:54 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:54 Dependencies:
+
+[DBUG] 2020/04/12 13:54 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:54 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:54 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:54 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:54 Host: addr is :8082
+[DBUG] 2020/04/12 13:54 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:54 Host: register startup notifier
+[DBUG] 2020/04/12 13:54 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:54 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:54 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 13:55 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:55 Dependencies:
+
+[DBUG] 2020/04/12 13:55 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 13:55 Dependencies:
+
+[DBUG] 2020/04/12 13:55 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 13:55 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 13:55 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 13:55 Application: running using 1 host(s)
+[DBUG] 2020/04/12 13:55 Host: addr is :8082
+[DBUG] 2020/04/12 13:55 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 13:55 Host: register startup notifier
+[DBUG] 2020/04/12 13:55 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 13:55 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 13:55 200 1.0057ms 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[DBUG] 2020/04/12 15:20 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:20 Dependencies:
+
+[DBUG] 2020/04/12 15:20 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:20 Dependencies:
+
+[DBUG] 2020/04/12 15:20 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 15:20 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 15:20 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 15:20 Application: running using 1 host(s)
+[DBUG] 2020/04/12 15:20 Host: addr is :8082
+[DBUG] 2020/04/12 15:20 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 15:20 Host: register startup notifier
+[DBUG] 2020/04/12 15:20 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 15:20 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 15:20 200 130.6508ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 15:20 200 16.9539ms 127.0.0.1 GET /book Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+[DBUG] 2020/04/12 15:23 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:23 Dependencies:
+
+[DBUG] 2020/04/12 15:23 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:23 Dependencies:
+
+[DBUG] 2020/04/12 15:23 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 15:23 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 15:23 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 15:23 Application: running using 1 host(s)
+[DBUG] 2020/04/12 15:23 Host: addr is :8082
+[DBUG] 2020/04/12 15:23 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 15:23 Host: register startup notifier
+[DBUG] 2020/04/12 15:23 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 15:23 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 15:23 200 237.3636ms 127.0.0.1 GET /book Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+[DBUG] 2020/04/12 15:40 MVC Controller [controllers.BookController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:40 Dependencies:
+
+[DBUG] 2020/04/12 15:40 MVC Controller [controllers.DemoController] [Scope=Stateless]
+[DBUG] 2020/04/12 15:40 Dependencies:
+
+[DBUG] 2020/04/12 15:40 [./main.go:91] GET: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:91] HEAD: /content/{file:path} -> HandleDir(directory: "./web/content") and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/record1 -> controllers.DemoController.GetRecord1() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:95] GET: /book/ajaxbooks -> controllers.BookController.GetAjaxbooks() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/conf -> controllers.DemoController.GetConf() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/err -> controllers.DemoController.GetErr() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/orm -> controllers.DemoController.GetOrm() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/qps -> controllers.DemoController.GetQps() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:96] GET: /demo/xml -> controllers.DemoController.GetXml() and 2 more
+[DBUG] 2020/04/12 15:40 [./main.go:95] GET: /book -> controllers.BookController.Get() and 2 more
+[DBUG] 2020/04/12 15:40 Application: 1 registered view engine(s)
+[DBUG] 2020/04/12 15:40 Application: running using 1 host(s)
+[DBUG] 2020/04/12 15:40 Host: addr is :8082
+[DBUG] 2020/04/12 15:40 Host: virtual host is localhost:8082
+[DBUG] 2020/04/12 15:40 Host: register startup notifier
+[DBUG] 2020/04/12 15:40 Host: register server shutdown on interrupt(CTRL+C/CMD+C)
+[DBUG] 2020/04/12 15:40 Host: server will ignore the following errors: [http: Server closed]
+Now listening on: http://localhost:8082
+Application started. Press CTRL+C to shut down.
+[INFO] 2020/04/12 15:40 200   0s 127.0.0.1 GET /demo/conf Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36
+[INFO] 2020/04/12 15:42 200 69.8071ms 127.0.0.1 GET /book Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36

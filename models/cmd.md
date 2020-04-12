@@ -1,0 +1,1 @@
+xorm reverse mysql root:112233@tcp(127.0.0.1:3305)/mygo?charset=utf8 models/goxorm
