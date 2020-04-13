@@ -3,6 +3,7 @@ iris mvc 完整示例站点
 
 book_tb表语句
 
+```
 CREATE TABLE `book_tb` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `BookName` varchar(100) DEFAULT '' COMMENT '书名',
@@ -17,3 +18,4 @@ CREATE TABLE `book_tb` (
   `AddTime` datetime DEFAULT NULL,
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COMMENT='图书表';
+```
