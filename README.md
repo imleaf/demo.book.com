@@ -1,6 +1,41 @@
 # demo.book.com
 iris mvc 完整示例站点
 
+项目结构
+
+```
+demo.book.com
+—— conf                           //配置相关的放在此目录
+    —— sysconf.go                 //配置读取代码
+    —— web.config                 //自定义文本配置
+—— dao
+    —— book_dao.go                //book表的xorm操作代码
+—— dbsource
+    —— dbsource.go                //数据引擎，单例模式
+—— log
+    —— 2020
+        —— 04
+            —— 2020-04-12.log     //站点日志，按日期存储
+—— models
+    —— goxorm                     //非站点使用，用于生成映射类的工具
+    —— book_tb.go                 //xorm根据数据库自动生成的映射类
+—— services
+    —— book_service.go            //业务操作类，调用的是book_dao.go，可以根据实际业务增加额外代码，例如从缓存读取数据等。
+—— web
+    —— content                    //存放站点静态资源，css、image、js等
+        —— mould
+            —— book  
+    —— controllers
+        —— BookController.go        //书城业务控制器
+        —— DemoController.go        //一些辅助demo控制器，测试用
+    —— views                        //视图代码
+        —— book
+            —— home.html
+        —— shared
+            —— bookLayout.html      //书城模板页
+—— main.go                          //主函数入口
+```
+
 book_tb表语句
 
 ```
