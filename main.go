@@ -1,16 +1,18 @@
 package main
 
 import (
-	"demo.book.com/conf"
-	"demo.book.com/web/controllers"
 	"fmt"
-	"github.com/kataras/iris"
-	"github.com/kataras/iris/middleware/logger"
-	"github.com/kataras/iris/mvc"
 	"io"
 	"os"
 	"runtime"
 	"time"
+
+	"demo.book.com/conf"
+	"demo.book.com/web/controllers"
+
+	"github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12/middleware/logger"
+	"github.com/kataras/iris/v12/mvc"
 )
 
 func main() {
@@ -76,9 +78,7 @@ func main() {
 				// 打印错误日志
 				ctx.Application().Logger().Warn(logMessage)
 				// 返回错误信息
-				ctx.JSON(errMsg)
-				ctx.StatusCode(500)
-				ctx.StopExecution()
+				ctx.StopWithJSON(iris.StatusInternalServerError, errMsg)
 			}
 		}()
 		ctx.Next()

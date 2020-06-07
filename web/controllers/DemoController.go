@@ -1,12 +1,14 @@
 package controllers
 
 import (
+	"errors"
+
 	"demo.book.com/conf"
 	"demo.book.com/models"
 	"demo.book.com/services"
-	"errors"
+
 	"github.com/go-xorm/xorm"
-	"github.com/kataras/iris"
+	"github.com/kataras/iris/v12"
 )
 
 type DemoController struct {
@@ -15,7 +17,7 @@ type DemoController struct {
 }
 
 //自己实例化engine，获取单条数据
-func (c *DemoController) GetRecord1() {
+func (c *DemoController) GetRecord1() models.BookTb {
 	engine, _ := xorm.NewEngine("mysql", "root:112233@tcp(127.0.0.1:3305)/mygo?charset=utf8")
 	var info models.BookTb
 
@@ -23,12 +25,11 @@ func (c *DemoController) GetRecord1() {
 	engine.ShowSQL(true)
 
 	engine.Table("book_tb").Where("id=?", 1).Get(&info)
-
-	c.Ctx.JSON(info)
+	return info
 }
 
 //封装的单条记录
-func (c *DemoController) GetOrm() {
+func (c *DemoController) GetOrm() iris.Map {
 	//实例对象
 	service := services.NewBookService()
 	//ID获取单条数据
@@ -39,13 +40,12 @@ func (c *DemoController) GetOrm() {
 	total, pageList := service.GetPageList("", "ID asc", 0, 2)
 	//新增数据
 
-	c.Ctx.JSON(
-		iris.Map{
-			"list":     list,
-			"info":     info,
-			"pageList": pageList,
-			"total":    total,
-		})
+	return iris.Map{
+		"list":     list,
+		"info":     info,
+		"pageList": pageList,
+		"total":    total,
+	}
 }
 
 //返回xml
@@ -61,15 +61,16 @@ func (c *DemoController) GetErr() {
 	//引发一个恐慌，程序会自动捕获并返回错误信息
 	panic(errors.New("i'm a painc"))
 }
-func (c *DemoController) GetQps() {
-	c.Ctx.WriteString("hello")
+func (c *DemoController) GetQps() string {
+	return "hello"
 }
 
-func (c *DemoController) GetConf() {
+func (c *DemoController) GetConf() map[string]string {
 	reload := c.Ctx.URLParam("reload")
 	if reload != "" {
 		//如果有更新配置，重新读取配置文件
 		conf.ReLoad()
 	}
-	c.Ctx.JSON(conf.SysConfMap)
+
+	return conf.SysConfMap
 }
